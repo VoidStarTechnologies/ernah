@@ -23,6 +23,7 @@ module.exports = (app) => {
     clientID: keys.google.clientID,
     clientSecret: keys.google.clientSecret,
     callbackURL: '/auth/google/callback',
+    proxy: true,
   },
   ((accessToken, refreshToken, profile, done) => {
     User.findOrCreate({ googleId: profile.id }, (err, user) => done(err, user));
