@@ -1,5 +1,5 @@
 {
-  "name": "master",
+  "name": "ernah",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/disysbot/master.git"
+    "url": "git+https://github.com/VoidStarTechnologies/ernah.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/disysbot/master/issues"
+    "url": "https://github.com/VoidStarTechnologies/ernah/issues"
   },
-  "homepage": "https://github.com/disysbot/master#readme",
+  "homepage": "https://github.com/VoidStarTechnologies/ernah#readme",
   "dependencies": {
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
