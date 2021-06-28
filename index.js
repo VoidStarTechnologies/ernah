@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const keys = require('./config/keys');
-require('./models/User'); // must stay before passport initialization
+require('./models/user');
 
 mongoose.connect(keys.mongo.uri, {
   useNewUrlParser: true,
